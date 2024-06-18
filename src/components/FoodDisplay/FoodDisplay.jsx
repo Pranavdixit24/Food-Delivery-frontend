@@ -14,7 +14,11 @@ const FoodDisplay = () => {
                     return <FoodItem  id={item._id} image={item.image} name={item.name} price={item.price} description={item.description}  />
                 })}
             </div>
-            
+
+            <div>
+                
+            </div>
+
 
         </div>
         
