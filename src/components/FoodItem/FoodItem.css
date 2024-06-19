@@ -48,3 +48,33 @@
 .food-item-name-rating img {
     width: 80px;
 }
+
+.food-item-img-container{
+    position: relative;
+}
+
+.food-item-img-container .add{
+    position: absolute;
+    width: 35px;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    
+}
+
+.food-item-Counter{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.food-item-Counter img{
+    width: 30px;
+}
