@@ -4,8 +4,6 @@ import App from './App.jsx'
 import './index.css'
 import StoreContextProvider from './context/storeContext.jsx'
 
-
-
 ReactDOM.createRoot(document.getElementById('root')).render(
 
   <StoreContextProvider>
