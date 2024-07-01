@@ -45,9 +45,24 @@
 }
  */
 
+ .explore-menu-list-items img{
+    min-width: 80px;
+    width: 7.5vw;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+ .explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
+
+ .explore-menu-list-items .active{
+    border: 4px solid tomato;
+    padding: 2px;
+}
 
  .explore-menu-container {
-    padding: 20px; /* Added padding for better spacing */
+    padding: 20px; 
   }
   
   .explore-menu {
@@ -59,14 +74,14 @@
   .explore-menu-text {
     max-width: 60%;
     font-weight: 200;
-    font-size: 18px; /* Reduced font size for better readability */
+    font-size: 18px; 
   }
   
   .explore-menu-list {
     display: flex;
     gap: 20px;
-    overflow-x: auto; /* Changed to auto to enable horizontal scrolling */
-    padding-bottom: 10px; /* Added padding to prevent cut-off at the bottom */
+    overflow-x: auto; 
+    padding-bottom: 10px; 
   }
   
   .explore-menu-list-item {
@@ -79,42 +94,42 @@
   .explore-menu-list-item img {
     min-width: 80px;
     width: 7.5vw;
-    height: 7.5vw; /* Maintaining aspect ratio */
-    max-height: 100px; /* Added max-height for smaller screens */
-    object-fit: cover; /* Ensures the image covers the space */
+    height: 7.5vw; 
+    max-height: 100px; 
+    object-fit: cover; 
     border-radius: 50%;
   }
   
   .explore-menu-list-item p {
-    margin-top: 10px; /* Added margin-top for spacing */
+    margin-top: 10px; 
   }
   
   .explore-menu hr {
     margin: 10px 0px;
-    height: 1px; /* Reduced height of hr */
+    height: 1px; 
     background-color: rgb(114, 114, 114);
   }
   
   /* Media Query for Smaller Screens */
   @media (max-width: 768px) {
     .explore-menu-text {
-      max-width: 100%; /* Full width for smaller screens */
-      font-size: 16px; /* Reduced font size for smaller screens */
+      max-width: 100%; 
+      font-size: 16px; 
     }
   
     .explore-menu-list {
-      gap: 10px; /* Reduced gap for smaller screens */
-      padding-bottom: 5px; /* Reduced padding for smaller screens */
+      gap: 10px; 
+      padding-bottom: 5px; 
     }
   
     .explore-menu-list-item img {
-      width: 50px; /* Reduced image width for smaller screens */
-      height: 50px; /* Reduced image height for smaller screens */
-      max-height: 70px; /* Adjusted max-height for smaller screens */
+        width: 50px; 
+        height: 50px; 
+      max-height: 70px; 
     }
   
     .explore-menu-list-item p {
-      font-size: 14px; /* Reduced font size for smaller screens */
+      font-size: 14px; 
     }
   }
   
