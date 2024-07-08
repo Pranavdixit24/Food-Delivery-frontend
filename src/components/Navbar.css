@@ -30,7 +30,7 @@
 }
 
 .navbar button:hover{
-    background: #db7979;
+    background: tomato;
 }
 
 .navbar .active{
